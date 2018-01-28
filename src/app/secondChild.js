@@ -33,6 +33,7 @@ export default class SecondChild extends React.Component {
   render () {
     return (
       <div className="container">
+        <h1>LIST:</h1>
         <hr/>
          { this.state.allList ? this.state.allList.map((list, i) => <h3 key={i}>{list}</h3> ): null}
       </div>

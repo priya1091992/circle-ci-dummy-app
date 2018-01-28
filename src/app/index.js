@@ -47,7 +47,6 @@ class App extends React.Component {
     })
   }
   render () {
-    console.log(":::this.state", this.state.todoList)
     return (
       <div className="container">
         <h1>LIST:</h1>
